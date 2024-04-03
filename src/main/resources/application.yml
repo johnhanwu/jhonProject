@@ -4,3 +4,17 @@ server:
 spring:
   application:
     name: helloWorld
+
+
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: jerry
+    password: yourStrong1233
+    driver-class-name: com.mysql.cj.jdbc.Driver
